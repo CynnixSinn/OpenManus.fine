@@ -1,0 +1,60 @@
+# Ignore node_modules
+node_modules
+
+# Ignore build artifacts
+dist
+dist-ssr
+*.local
+.output
+.vite
+
+# Ignore git and CI related files
+.git
+.github
+.gitignore
+.gitlab-ci.yml
+.travis.yml
+
+# Ignore editor files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore test files
+coverage
+*.lcov
+.nyc_output
+
+# Ignore environment files
+.env
+.env.*
+!.env.example
+
+# Ignore Docker related files
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
+
+# Ignore documentation
+README.md
+CHANGELOG.md
+LICENSE
+docs
+
+# Ignore cache
+.cache
+.eslintcache
+.stylelintcache
+
+# Ignore Typescript build info
+*.tsbuildinfo
